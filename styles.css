@@ -1,0 +1,31 @@
+#nombre{
+   
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+    padding: 0px;
+    letter-spacing: -1px;
+}
+
+.bold{
+    font-family: 'Lato', sans-serif;
+    margin-left: 62px;
+    margin-bottom: 0px;
+}
+
+#logo{
+
+    margin-left: 50px;
+}
+
+.contenedor{
+    margin-left: 50px;
+  }
+
+.fotos-portada{
+    margin-left: 10px;
+}
+
+.texto-portada {
+    margin-top: 154px;
+}
+
