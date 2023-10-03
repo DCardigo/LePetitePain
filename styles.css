@@ -19,6 +19,8 @@
     margin-left: 128px;
 }
 
+/* <!-- PAGE 1 --> */
+
 .contenedor{
     margin-left: 128px;
     width: 90%;
@@ -53,4 +55,15 @@
 }
 .tarta3{
     width: 272px;
+}
+
+/* <!-- PAGE 2 --> */
+
+.page-2{
+
+    background-color: rgb(228, 220, 201);
+}
+
+.pan1{
+    width: 393px;
 }
