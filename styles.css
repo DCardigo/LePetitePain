@@ -10,15 +10,19 @@
     font-family: 'Lato', sans-serif;
     margin-left: 62px;
     margin-bottom: 0px;
+    color: rgb(80, 80, 80);
+    font-size: 12px;
 }
 
 #logo{
-
-    margin-left: 50px;
+    color: rgb(59, 59, 59);
+    margin-left: 128px;
 }
 
 .contenedor{
-    margin-left: 50px;
+    margin-left: 128px;
+    width: 90%;
+
   }
 
 .fotos-portada{
@@ -29,3 +33,24 @@
     margin-top: 154px;
 }
 
+.text1{
+    font-family: 'Playfair Display', serif;
+    color: rgb(187, 187, 187);
+}
+
+.placer{
+    font-family: 'Dancing Script', cursive;
+    font-size: 68px;
+}
+
+.tarta1{
+    width: 330px;
+}
+
+.tarta2{
+    width: 272px;
+    margin-right: 1rem;
+}
+.tarta3{
+    width: 272px;
+}
