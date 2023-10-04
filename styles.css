@@ -143,7 +143,9 @@
     
     width: 100%;
     height: 100%;
+    /* object-fit: none; */
     object-fit: cover;
+    
   }
 
 .caja1 {
@@ -154,6 +156,10 @@
     /* top: 54px; */
     /* right: 15px; */
     /* border: 1px solid black; */
+  }
+
+  .caja1 img{
+    object-position: 50% 99%;
   }
   
   .caja2 {
@@ -166,6 +172,11 @@
     /* right: 15px; */
     /* border: 1px solid black; */
   }
+
+  .caja2 img{
+    object-position: 50% 43%;
+  }
+
   .caja3 {
     width: 100%;
     height: 180px;
