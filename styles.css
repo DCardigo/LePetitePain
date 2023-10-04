@@ -1,38 +1,42 @@
 #nombre{
    
     font-family: 'Playfair Display', serif;
-    margin-bottom: 0px;
-    padding: 0px;
-    letter-spacing: -1px;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    letter-spacing: 0rem;
 }
 
 .bold{
     font-family: 'Lato', sans-serif;
-    margin-left: 62px;
+    margin-left: 4rem;
     margin-bottom: 0px;
     color: rgb(80, 80, 80);
-    font-size: 12px;
+    font-size: 62%;
 }
 
 #logo{
     color: rgb(59, 59, 59);
-    margin-left: 128px;
+    margin-left: 8rem;
 }
 
 /* <!-- PAGE 1 --> */
 
-.contenedor{
-    margin-left: 128px;
+/* .contenedor{
+    margin-left: 8rem;
     width: 90%;
 
-  }
+  } */
+
+
 
 .fotos-portada{
-    margin-left: 10px;
+    margin-left: 3rem;
 }
 
 .texto-portada {
-    margin-top: 154px;
+    /* margin-top: 9rem; */
+    margin-left: 4rem;
+    padding-top: 11rem;
 }
 
 .text1{
@@ -42,20 +46,20 @@
 
 .placer{
     font-family: 'Dancing Script', cursive;
-    font-size: 68px;
+    font-size: 357%;
 }
 
 .tarta1{
-    width: 283px;
+    width: 51%;
 }
 
 .tarta2{
-    width: 200px;
-    margin: 20px 20px 126px 0;
+    width: 35%;
+    margin: 1rem 1rem 5rem 0;
 }
 .tarta3{
-    width: 200px;
-    margin: 20px 0 126px 0;
+    width: 35%;
+    margin: 1rem  0 5rem  0;
 }
 
 /* <!-- PAGE 2 --> */
