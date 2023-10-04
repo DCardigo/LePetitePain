@@ -46,24 +46,163 @@
 }
 
 .tarta1{
-    width: 330px;
+    width: 283px;
 }
 
 .tarta2{
-    width: 272px;
-    margin-right: 1rem;
+    width: 200px;
+    margin: 20px 20px 126px 0;
 }
 .tarta3{
-    width: 272px;
+    width: 200px;
+    margin: 20px 0 126px 0;
 }
 
 /* <!-- PAGE 2 --> */
 
 .page-2{
-
     background-color: rgb(228, 220, 201);
 }
 
-.pan1{
-    width: 393px;
+.img-pan{
+    width: 354px;
+    margin: 80px 0 80px 80px;
 }
+
+.pan{
+    font-family: 'Playfair Display', serif;
+    font-size: 37px;
+    position: relative;
+    top: 181px;
+    left: 38px;
+}
+
+.sobre{
+    font-family: 'Dancing Script', cursive;
+    font-size: 121px;
+    position: relative;
+    top: 129px;
+    left: 83px;
+
+}
+
+.text-p2{
+    position: relative;
+    top: 129px;
+    left: 83px;
+}
+
+/* <!-- PAGE 3 --> */
+
+.page-3{
+    background-color: rgb(51, 51, 51);
+    padding: 103px;
+}
+
+.row-1{
+    padding-right: 50px !important;
+}
+.row-2{
+    margin-top: 81px !important;
+}
+
+.p3-titulo{
+    font-family: 'Playfair Display', serif;
+}
+
+/* <!-- PAGE 4 --> */
+
+.p4-vida{
+    font-family: 'Playfair Display', serif;
+    font-size: 37px;
+    position: relative;
+    top: 76px;
+    left: 80px;
+    color: rgb(104, 104, 104);
+}
+
+.p4-nuestro{
+    font-family: 'Dancing Script', cursive;
+    font-size: 71px;
+    position: relative;
+    top: 35px;
+    left: 97px;
+}
+
+
+.p4-img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.caja1 {
+    width: 100%;
+height: 428px;
+    position: relative;
+    padding-left: 80px;
+    top: 54px;
+    /* right: 15px; */
+    /* border: 1px solid black; */
+  }
+  
+  .caja2 {
+    width: 100%;
+height: 428px;
+    position: relative;
+    padding-left: 80px;
+    top: 69px;
+    /* right: 15px; */
+    /* border: 1px solid black; */
+  }
+  .caja3 {
+    width: 100%;
+    height: 285px;
+    position: relative;
+    padding-left: 15px;
+    top: 54px;
+    /* right: 15px; */
+    /* border: 1px solid black; */
+  }
+  
+  .caja4 {
+    width: 100%;
+    height: 285px;
+    position: relative;
+    padding-left: 15px;
+    top: 69px;
+    /* right: 15px; */
+    /* border: 1px solid black; */
+  }
+  .caja5 {
+    width: 100%;
+    height: 285px;
+    position: relative;
+    padding-left: 15px;
+    top: 84px;
+    padding-bottom: 15px;
+    /* right: 15px; */
+    /* border: 1px solid black; */
+  }
+  .caja6 {
+    width: 100%;
+    height: 428px;
+    position: relative;
+    padding-left: 15px;
+    top: 54px;
+    padding-right: 80px;
+    /* border: 1px solid black; */
+  }
+  
+  .caja7 {
+    width: 100%;
+    height: 428px;
+    position: relative;
+    padding-left: 15px;
+    top: 69px;
+    padding-right: 80px;
+    /* border: 1px solid black; */
+  }
+
+ 
