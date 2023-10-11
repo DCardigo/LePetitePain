@@ -2,7 +2,7 @@
 
 ## Propósito del Proyecto 🥖
 
-Este proyecto plantea una Single Page Application (SPA) con un diseño que dote de un aire elegante a una pequeña panadería. 
+Proyecto de Single Page Application (SPA) con un diseño elegante para una pequeña panadería. 
 
 
 ## La Web 🖥️
