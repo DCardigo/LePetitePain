@@ -318,7 +318,12 @@
     top: 360px;
     left: 745px;
     width: 26%;
+    
 }
 
 /* Formulario */
+
+#form{
+    border-color: rgba(79, 79, 79, 0.16);
+}
 
