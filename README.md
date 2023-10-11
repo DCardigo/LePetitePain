@@ -7,7 +7,8 @@ Proyecto de Single Page Application (SPA) con un diseño elegante para una peque
 
 ## La Web 🖥️
 
-![Firefox_Screenshot_2023-10-11T11-05-43 744Z](https://github.com/DCardigo/LePetitPain/assets/123099651/40e8378b-1194-4937-a896-d863fd5bbac3)
+![Uploading Firefox_Screenshot_2023-10-11T11-23-47.279Z.png…]()
+
 
 
 ## Tecnologías  🛠️
