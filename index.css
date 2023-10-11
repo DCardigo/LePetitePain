@@ -287,7 +287,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 37px;
     position: relative;
-    top: 252px;
+    top: 118px;
     left: 80px;
     color: rgba(104, 104, 104, 0.5);
 }
@@ -296,13 +296,13 @@
     font-family: 'Dancing Script', cursive;
     font-size: 128px;
     position: relative;
-    top: 202px;
+    top: 67px;
     left: 123px;
     color: rgba(0, 0, 0, 0.8);
 }
 .p6-datos{
     position: relative;
-    top: 226px;
+    top: 80px;
     left: 123px;
 
 }
@@ -319,3 +319,6 @@
     left: 745px;
     width: 26%;
 }
+
+/* Formulario */
+
