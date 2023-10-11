@@ -7,7 +7,8 @@ Proyecto de Single Page Application (SPA) con un diseño elegante para una peque
 
 ## La Web 🖥️
 
-![Uploading Firefox_Screenshot_2023-10-11T11-23-47.279Z.png…]()
+![Firefox_Screenshot_2023-10-11T11-23-47 279Z](https://github.com/DCardigo/LePetitPain/assets/123099651/160477ab-9ea6-4397-80b4-28770801c6e4)
+
 
 ## Visítala 🔎 https://le-petit-pain.vercel.app/
 
