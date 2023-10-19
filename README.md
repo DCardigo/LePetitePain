@@ -2,12 +2,13 @@
 
 ## Propósito del Proyecto 🥖
 
-Proyecto de Single Page Application (SPA) con un diseño elegante para una pequeña panadería. 
+Proyecto de Single Page Application (SPA) responsive con un diseño elegante para una pequeña panadería. 
 
 
 ## La Web 🖥️
 
-![Firefox_Screenshot_2023-10-11T11-32-25 712Z](https://github.com/DCardigo/LePetitePain/assets/123099651/150bbef8-c78c-489c-a0e4-deb8f7ca194d)
+
+![Firefox_Screenshot_2023-10-19T16-23-46 429Z](https://github.com/DCardigo/LePetitePain/assets/123099651/a028be6c-9dca-4220-adbd-67bdcfb3d77a)
 
 
 
