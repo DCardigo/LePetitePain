@@ -109,6 +109,12 @@
     background-color: rgb(51, 51, 51);
     padding: 103px;
 }
+@media (max-width: 600px){
+    .page-3 {
+        padding: 52px;
+        display: block;
+    }
+}
 
 .row-1 {
     padding-right: 50px !important;
@@ -169,6 +175,24 @@
     /* top: 54px; */
     /* right: 15px; */
     /* border: 1px solid black; */
+}
+@media (max-width: 600px){
+    .caja1 {
+        right: 85px; 
+    }
+    .p4-vida{
+        font-size: 28px;
+        left: 43px;
+    }
+    .p4-nuestro{
+        font-size: 43px;
+        top:18px;
+        left: 59px;
+        margin-bottom: 34px;
+    }
+    #page-4{
+        width: 77%;
+    }
 }
 
 .caja1 img {
@@ -270,6 +294,15 @@
 
 }
 
+@media (max-width: 600px){
+    .p5-text {
+
+        font-size: 63px;
+        top: 241px;
+    
+    }
+}
+
 /* <!-- PAGE 6 --> */
 
 .page-6 {
@@ -351,6 +384,10 @@
         color: rgba(160, 160, 160, 0.16);
     
         /* transform-origin: center; */
+    }
+    button {
+
+        margin-left: 23px;
     }
 }
 
