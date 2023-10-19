@@ -115,6 +115,18 @@
         display: block;
     }
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
 
 .row-1 {
     padding-right: 50px !important;
@@ -301,6 +313,7 @@
         top: 241px;
     
     }
+    
 }
 
 /* <!-- PAGE 6 --> */
