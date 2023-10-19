@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <!-- GOOGLE FONT -->
 
@@ -26,7 +27,38 @@
 
 <body class="h-100">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div id="logo" class="mt-4">
+            <p class="bold">1934</p>
+            <h2 id="nombre">
+                Le Petite Pain
+            </h2>
+            <p class="bold">PARIS</p>
+        </div>
+        <button class="navbar-toggler px-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav px-3  float-end">
+                <li class="nav-item active">
+                    <a class="nav-link navbar-custom  float-end" href="#inicio" onclick="seleccionar()">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  float-end" href="#nosotros" onclick="seleccionar()">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  float-end" href="#productos" onclick="seleccionar()">Nuestros Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  float-end" href="#contacto" onclick="seleccionar()">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <div id="logo" class="mt-4">
                 <p class="bold">1934</p>
@@ -44,7 +76,7 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- PAGE 1 -->
 
@@ -57,7 +89,8 @@
                     <p class="col-11">Lorem ipsum dolor sit amet consectetur adipiscing elit ultricies nisi aliquet, nam
                         rutrum
                         eros taciti
-                        neque per faucibus accumsan quam quisque tellus, habitasse hac id enim libero dis interdum convallis
+                        neque per faucibus accumsan quam quisque tellus, habitasse hac id enim libero dis interdum
+                        convallis
                         blandit.</p>
                 </div>
                 <div class="col fotos-portada mt-5">
@@ -99,9 +132,11 @@
                 <p class="text-p2">Lorem ipsum dolor sit amet consectetur adipiscing elit ultricies nisi aliquet, nam
                     rutrum
                     Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque gravida per felis in dui, netus
-                    himenaeos praesent vel sed. Leo quam metus sociis volutpat dictumst magnis ultricies vitae arcu, lacus
+                    himenaeos praesent vel sed. Leo quam metus sociis volutpat dictumst magnis ultricies vitae arcu,
+                    lacus
                     mus non sollicitudin neque aenean tellus pretium, sed netus ante consequat molestie mollis potenti
-                    libero. Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante ridiculus
+                    libero. Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                    ridiculus
                     purus netus nibh sociis sollicitudin mollis enim, facilisis montes molestie risus scelerisque proin
                     convallis auctor.
 
@@ -234,7 +269,8 @@
                             placeholder="tu teléfono">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label" id="form-label">¿En qué podemos ayudarte?</label>
+                        <label for="exampleFormControlTextarea1" class="form-label" id="form-label">¿En qué podemos
+                            ayudarte?</label>
                         <textarea class="form-control" id="form" rows="3"></textarea>
                     </div>
                     <button type="button" class="btn btn-secondary">Enviar</button>
@@ -248,9 +284,12 @@
         </div>
     </section>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
