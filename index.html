@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/index.css" />
 
     <!-- GOOGLE FONT -->
 
@@ -24,8 +24,7 @@
 
 <body class="h-100">
 
-
-    <nav class="navbar navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <div id="logo" class="mt-4">
                 <p class="bold">1934</p>
@@ -34,121 +33,156 @@
                 </h2>
                 <p class="bold">PARIS</p>
             </div>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#inicio" onclick="seleccionar()">Inicio</a>
+                    <a class="nav-link" href="#nosotros" onclick="seleccionar()">Sobre Nosotros</a>
+                    <a class="nav-link" href="#productos" onclick="seleccionar()">Nuestros Productos</a>
+                    <a class="nav-link" href="#contacto" onclick="seleccionar()">Contacto</a>
+                </div>
+            </div>
         </div>
     </nav>
 
+    <!-- <nav class="navbar navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <div id="logo" class="mt-4">
+                <p class="bold">1934</p>
+                <h2 id="nombre">
+                    Le Petite Pain
+                </h2>
+                <p class="bold">PARIS</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                  </ul>
+            </div>
+        </div>
+    </nav> -->
+
     <!-- PAGE 1 -->
 
-
-    <div class="container">
-        <div class="row d-flex">
-            <div class="col texto-portada">
-                <h2 class="text1">Eres dulce</h2>
-                <h1 class="placer fw-bolder mb-4">Placer...</h1>
-                <p class="col-11">Lorem ipsum dolor sit amet consectetur adipiscing elit ultricies nisi aliquet, nam
-                    rutrum
-                    eros taciti
-                    neque per faucibus accumsan quam quisque tellus, habitasse hac id enim libero dis interdum convallis
-                    blandit.</p>
-            </div>
-            <div class="col fotos-portada mt-5">
-                <div class="row">
-                    <div class="col">
-                        <img class="tarta1"
-                            src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A73F095D-A41C-4C81-A87D-00F5E4D3D638/Derivates/33FEF576-49A1-47C4-BBB9-BA9ED1B7C5BE.jpg"
-                            alt="" />
-                    </div>
-
+    <section id="inicio">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col texto-portada">
+                    <h2 class="text1">Eres dulce</h2>
+                    <h1 class="placer fw-bolder mb-4">Placer...</h1>
+                    <p class="col-11">Lorem ipsum dolor sit amet consectetur adipiscing elit ultricies nisi aliquet, nam
+                        rutrum
+                        eros taciti
+                        neque per faucibus accumsan quam quisque tellus, habitasse hac id enim libero dis interdum convallis
+                        blandit.</p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <img class="tarta2"
-                            src="https://levaduramadre.es/wp-content/uploads/2021/03/958_tarta_chocolate_00.jpg"
-                            alt="" />
-                        <img class="tarta3"
-                            src="https://hips.hearstapps.com/hmg-prod/images/tarta-zanahoria-elle-gourmet-1676904152.jpg?crop=1.00xw:0.668xh;0,0.320xh&resize=1200:*"
-                            alt="" />
+                <div class="col fotos-portada mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <img class="tarta1"
+                                src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A73F095D-A41C-4C81-A87D-00F5E4D3D638/Derivates/33FEF576-49A1-47C4-BBB9-BA9ED1B7C5BE.jpg"
+                                alt="" />
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img class="tarta2"
+                                src="https://levaduramadre.es/wp-content/uploads/2021/03/958_tarta_chocolate_00.jpg"
+                                alt="" />
+                            <img class="tarta3"
+                                src="https://hips.hearstapps.com/hmg-prod/images/tarta-zanahoria-elle-gourmet-1676904152.jpg?crop=1.00xw:0.668xh;0,0.320xh&resize=1200:*"
+                                alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
     <!-- PAGE 2 -->
 
-    <div class="page-2 d-flex">
-        <img class="img-pan"
-            src="https://es.cravingsjournal.com/wp-content/uploads/2021/04/baguette-de-masa-madre-4.jpg" alt="" />
+    <section id="nosotros">
+        <div class="page-2 d-flex">
+            <img class="img-pan"
+                src="https://es.cravingsjournal.com/wp-content/uploads/2021/04/baguette-de-masa-madre-4.jpg" alt="" />
 
-        <div class="col-6">
-            <h1 class="pan text-white">Panadería</h1>
-            <h1 class="sobre">Sobre nosotros</h1>
-            <p class="text-p2">Lorem ipsum dolor sit amet consectetur adipiscing elit ultricies nisi aliquet, nam
-                rutrum
-                Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque gravida per felis in dui, netus
-                himenaeos praesent vel sed. Leo quam metus sociis volutpat dictumst magnis ultricies vitae arcu, lacus
-                mus non sollicitudin neque aenean tellus pretium, sed netus ante consequat molestie mollis potenti
-                libero. Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante ridiculus
-                purus netus nibh sociis sollicitudin mollis enim, facilisis montes molestie risus scelerisque proin
-                convallis auctor.
+            <div class="col-6">
+                <h1 class="pan text-white">Panadería</h1>
+                <h1 class="sobre">Sobre nosotros</h1>
+                <p class="text-p2">Lorem ipsum dolor sit amet consectetur adipiscing elit ultricies nisi aliquet, nam
+                    rutrum
+                    Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque gravida per felis in dui, netus
+                    himenaeos praesent vel sed. Leo quam metus sociis volutpat dictumst magnis ultricies vitae arcu, lacus
+                    mus non sollicitudin neque aenean tellus pretium, sed netus ante consequat molestie mollis potenti
+                    libero. Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante ridiculus
+                    purus netus nibh sociis sollicitudin mollis enim, facilisis montes molestie risus scelerisque proin
+                    convallis auctor.
 
-            </p>
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- PAGE 3 -->
 
-    <div class="page-3 text-white">
-        <div class="row ">
-            <div class="col row-1">
-                <img src="Referencias/page-3/iconos/caramelo-de-anis.png" alt="" />
-                <h2 class="p3-titulo pt-4">Dulces</h2>
-                <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
-                    ridiculus
-                    purus netus nibh sociis sollicitudin mollis enim.</p>
-            </div>
-            <div class="col row-1">
-                <img src="Referencias/page-3/iconos/pedazo-de-pastel.png" alt="" />
-                <h2 class="p3-titulo pt-4">Pasteles</h2>
+    <section id="productos">
+        <div class="page-3 text-white">
+            <div class="row ">
+                <div class="col row-1">
+                    <img src="Referencias/page-3/iconos/caramelo-de-anis.png" alt="" />
+                    <h2 class="p3-titulo pt-4">Dulces</h2>
+                    <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                        ridiculus
+                        purus netus nibh sociis sollicitudin mollis enim.</p>
+                </div>
+                <div class="col row-1">
+                    <img src="Referencias/page-3/iconos/pedazo-de-pastel.png" alt="" />
+                    <h2 class="p3-titulo pt-4">Pasteles</h2>
 
-                <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
-                    ridiculus
-                    purus netus nibh sociis sollicitudin mollis enim.</p>
+                    <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                        ridiculus
+                        purus netus nibh sociis sollicitudin mollis enim.</p>
+                </div>
+                <div class="col">
+                    <img src="Referencias/page-3/iconos/galleta.png" alt="" />
+                    <h2 class="p3-titulo pt-4">Galletas</h2>
+                    <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                        ridiculus
+                        purus netus nibh sociis sollicitudin mollis enim.</p>
+                </div>
             </div>
-            <div class="col">
-                <img src="Referencias/page-3/iconos/galleta.png" alt="" />
-                <h2 class="p3-titulo pt-4">Galletas</h2>
-                <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
-                    ridiculus
-                    purus netus nibh sociis sollicitudin mollis enim.</p>
+            <div class="row row-2">
+                <div class="col row-1">
+                    <img src="Referencias/page-3/iconos/pan-de-molde.png" alt="" />
+                    <h2 class="p3-titulo pt-4">Pan de molde</h2>
+                    <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                        ridiculus
+                        purus netus nibh sociis sollicitudin mollis enim.</p>
+                </div>
+                <div class="col row-1">
+                    <img src="Referencias/page-3/iconos/cuerno.png" alt="" />
+                    <h2 class="p3-titulo pt-4">Croissants</h2>
+                    <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                        ridiculus
+                        purus netus nibh sociis sollicitudin mollis enim.</p>
+                </div>
+                <div class="col">
+                    <img src="Referencias/page-3/iconos/piruleta.png" alt="" />
+                    <h2 class="p3-titulo pt-4">Piruletas</h2>
+                    <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
+                        ridiculus
+                        purus netus nibh sociis sollicitudin mollis enim.</p>
+                </div>
             </div>
         </div>
-        <div class="row row-2">
-            <div class="col row-1">
-                <img src="Referencias/page-3/iconos/pan-de-molde.png" alt="" />
-                <h2 class="p3-titulo pt-4">Pan de molde</h2>
-                <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
-                    ridiculus
-                    purus netus nibh sociis sollicitudin mollis enim.</p>
-            </div>
-            <div class="col row-1">
-                <img src="Referencias/page-3/iconos/cuerno.png" alt="" />
-                <h2 class="p3-titulo pt-4">Croissants</h2>
-                <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
-                    ridiculus
-                    purus netus nibh sociis sollicitudin mollis enim.</p>
-            </div>
-            <div class="col">
-                <img src="Referencias/page-3/iconos/piruleta.png" alt="" />
-                <h2 class="p3-titulo pt-4">Piruletas</h2>
-                <p class="pt-2">Ornare interdum nec taciti elementum habitasse nisi posuere lobortis ultricies, ante
-                    ridiculus
-                    purus netus nibh sociis sollicitudin mollis enim.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- PAGE 4 -->
 
@@ -199,36 +233,39 @@
 
     <!-- PAGE 6 -->
 
-    <div class="page-6 d-flex">
-        <h1 class="text-fondo col-3">Le Petite Pain</h1>
-        <div class="col-4">
-            <h1 class="p6-bien">Bienvenidos</h1>
-            <h1 class="p6-contac">Contáctanos</h1>
+    <section id="contacto">
+        <div class="page-6 d-flex">
+            <h1 class="text-fondo col-3">Le Petite Pain</h1>
+            <div class="col-4">
+                <h1 class="p6-bien">Bienvenidos</h1>
+                <h1 class="p6-contac">Contáctanos</h1>
 
-            <!-- Formulario -->
+                <!-- Formulario -->
 
-            <div class="p6-datos">
-                <div class="mb-3">
-                    <input type="text" id="form" class="form-control" id="exampleFormControlInput1"
-                        placeholder="tu nombre">
-                    <br />
-                    <input type="email" id="form" class="form-control" id="exampleFormControlInput1"
-                        placeholder="tu correo electrónico">
-                    <br />
-                    <input type="tel" id="form" class="form-control" id="exampleFormControlInput1"
-                        placeholder="tu teléfono">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">¿En qué podemos ayudarte?</label>
-                    <textarea class="form-control" id="form" rows="3"></textarea>
+                <div class="p6-datos">
+                    <div class="mb-3">
+                        <input type="text" id="form" class="form-control" id="exampleFormControlInput1"
+                            placeholder="tu nombre">
+                        <br />
+                        <input type="email" id="form" class="form-control" id="exampleFormControlInput1"
+                            placeholder="tu correo electrónico">
+                        <br />
+                        <input type="tel" id="form" class="form-control" id="exampleFormControlInput1"
+                            placeholder="tu teléfono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">¿En qué podemos ayudarte?</label>
+                        <textarea class="form-control" id="form" rows="3"></textarea>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-8">
-            <img class="p6-img1" src="Referencias/page-6/1.jpeg" />
-            <img class="p6-img2" src="Referencias/page-6/2.jpeg" />
+            <div class="col-8">
+                <img class="p6-img1" src="Referencias/page-6/1.jpeg" />
+                <img class="p6-img2" src="Referencias/page-6/2.jpeg" />
 
+            </div>
         </div>
+    </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
